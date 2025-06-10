@@ -22,8 +22,7 @@ Aerial RF interference was detected above Facility 4. The source was confirmed t
 - Nearby mesh node logs: Packet loss spike from 2% to 43%
 
 ## Mitigation actions
-    ```bash
-    # Step 1: Isolate affected access points
+   # Step 1: Isolate affected access points
     $ sudo netctl disable wlan-node-6
     
     # Step 2: Trigger spectrum scan
@@ -31,6 +30,7 @@ Aerial RF interference was detected above Facility 4. The source was confirmed t
     
     # Step 3: Notify authorities
     Contact: fcc.report@fcc.gov
+
     
 ## Outcome & Next Steps
 | Action                       | Status    |
