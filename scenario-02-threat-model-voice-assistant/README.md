@@ -13,6 +13,5 @@ Environment: AWS-based NLP backend, React frontend, mobile SDK
 ---
 
 ## Architecture Summary
-```text
 [Frontend] → [API Gateway] → [Lambda NLP Engine] → [S3 Voice Archive]
                             ↘ [Logs → CloudWatch → Elasticsearch]
