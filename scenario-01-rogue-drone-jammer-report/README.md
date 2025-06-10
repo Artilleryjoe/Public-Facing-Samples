@@ -24,10 +24,10 @@ Aerial RF interference was detected above Facility 4. The source was confirmed t
    # Step 1: Isolate affected access points
     $ sudo netctl disable wlan-node-6
     
-    # Step 2: Trigger spectrum scan
+# Step 2: Trigger spectrum scan
     $ rfwatch --scan --duration 60s
     
-    # Step 3: Notify authorities
+# Step 3: Notify authorities
     Contact: fcc.report@fcc.gov
 
     
