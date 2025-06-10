@@ -9,7 +9,7 @@ Aerial RF interference was detected above Facility 4. The source was confirmed t
 
 ## Technical Analysis
 
-### 🛰️ Observed Frequency Bands
+### Observed Frequency Bands
     ```text
     - 2.420 GHz – 2.480 GHz (Wi-Fi)
     - 1.563 GHz (GPS L1 band)
