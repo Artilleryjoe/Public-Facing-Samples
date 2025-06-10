@@ -33,6 +33,6 @@ Tip: Use tshark to simulate and test audio replay edge cases before production d
 
 ## Security Recommendations
 # Enable full log encryption at rest
-aws logs associate-kms-key --log-group-name NLP-Logs --kms-key-id alias/quietcue-logkey
+```aws logs associate-kms-key --log-group-name NLP-Logs --kms-key-id alias/quietcue-logkey```
 
-Add a SECURITY.md policy file to all client SDK repositories.
+Add a ```SECURITY.md``` policy file to all client SDK repositories.
