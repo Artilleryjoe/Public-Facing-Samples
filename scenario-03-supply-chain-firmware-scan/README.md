@@ -11,10 +11,10 @@
 ---
 
 ## Critical Findings
-
-[✓] Firmware hash match: CVE-2023-5113 backdoor
-[✗] Unexpected debug port open (31337)
-[✗] Root credentials found: user=root, pass=admin123
+    ```text
+    [✓] Firmware hash match: CVE-2023-5113 backdoor
+    [✗] Unexpected debug port open (31337)
+    [✗] Root credentials found: user=root, pass=admin123
 
 ## Hash Check
     ```bash
@@ -28,7 +28,7 @@
     2. Notify vendor and request clean firmware build
     3. Audit firmware supply chain for future devices
 
-## Lesssons Learned
+## Lessons Learned
 Always request an SBOM (Software Bill of Materials) from hardware and firmware suppliers.
 
 Recommendation:
