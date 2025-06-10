@@ -1,9 +1,6 @@
 
 ---
 
-
-
-```markdown
 # Firmware Scan Report: Supply Chain Pre-Audit
 
 ## Scope
