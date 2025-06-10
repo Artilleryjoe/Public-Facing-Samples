@@ -1,9 +1,6 @@
 
 ---
 
-### `scenario-02-threat-model-voice-assistant`
-
-
 # Threat Modeling: Voice Assistant Platform
 
 ## Context
