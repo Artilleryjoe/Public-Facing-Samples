@@ -11,7 +11,7 @@
 ---
 
 ## Critical Findings
-    ```text
+   
     [✓] Firmware hash match: CVE-2023-5113 backdoor
     [✗] Unexpected debug port open (31337)
     [✗] Root credentials found: user=root, pass=admin123
