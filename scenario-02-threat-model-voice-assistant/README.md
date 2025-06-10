@@ -31,6 +31,3 @@ Tip: Use tshark to simulate and test audio replay edge cases before production d
 aws logs associate-kms-key --log-group-name NLP-Logs --kms-key-id alias/quietcue-logkey
 
 Add a SECURITY.md policy file to all client SDK repositories.
-
-
----
