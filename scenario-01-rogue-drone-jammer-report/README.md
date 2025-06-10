@@ -1,26 +1,43 @@
-# Scenario: Detection and Mitigation of Rogue RF Drone Jammer
+# Incident Report: Rogue Drone RF Jamming Attempt
 
-## Overview
-A rogue drone was detected hovering near company facilities, disrupting Wi-Fi and GPS signals. The drone was emitting targeted RF interference in the 2.4 GHz and 1.5 GHz bands, consistent with consumer-grade jamming hardware.
+## Summary
+Aerial RF interference was detected above Facility 4. The source was confirmed to be a **rogue drone** emitting targeted jamming frequencies that disrupted network operations.
 
-## Impact Summary
-- Temporary disruption to drone-based inventory scanning
-- Loss of GPS signal for on-site delivery vehicles
-- 7% drop in warehouse network throughput
+> **Note:** This incident demonstrates increasing sophistication in low-cost aerial surveillance and interference tactics.
 
-## Forensics & Analysis
-- RF spectrum analysis logs captured spikes between 2.42–2.48 GHz
-- Drone visual identified via thermal camera, 70 ft altitude
-- Suspected jamming origin: custom drone running SDR hardware (BladeRF variant)
+---
 
-## Response Actions
-1. Isolated affected mesh network nodes
-2. Activated RF alert threshold in intrusion detection platform
-3. Reported incident to FCC regional office (violation of Title 47 CFR Part 15)
+## Technical Analysis
 
-## Recommendations
-- Deploy RF anomaly baseline for continuous spectrum monitoring
-- Integrate directional RF localization tools (Yagi antenna or triangulation grid)
-- Implement drone surveillance countermeasure (non-interference passive radar)
+### 🛰️ Observed Frequency Bands
+    ```text
+    - 2.420 GHz – 2.480 GHz (Wi-Fi)
+    - 1.563 GHz (GPS L1 band)
 
-## Status: **Closed**
+## Indicators of Compromise (IoCs)
+- Repeating RF bursts approximately 250ms apart
+
+- Unregistered drone ID (OpenDroneID failure)
+
+- Nearby mesh node logs: Packet loss spike from 2% to 43%
+
+## Mitigation actions
+    ```bash
+    # Step 1: Isolate affected access points
+    $ sudo netctl disable wlan-node-6
+    
+    # Step 2: Trigger spectrum scan
+    $ rfwatch --scan --duration 60s
+    
+    # Step 3: Notify authorities
+    Contact: fcc.report@fcc.gov
+    
+## Outcome & Next Steps
+| Action                       | Status    |
+| ---------------------------- | --------- |
+| Mesh isolation               | Completed |
+| RF sweep                     | Logged    |
+| Law enforcement notification | Pending   |
+    ```Markdown
+    Recommendation:
+    Deploy real-time RF spectrum monitoring using HackRF One and GNU Radio.
