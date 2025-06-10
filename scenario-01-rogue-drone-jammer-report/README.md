@@ -37,6 +37,5 @@ Aerial RF interference was detected above Facility 4. The source was confirmed t
 | Mesh isolation               | Completed |
 | RF sweep                     | Logged    |
 | Law enforcement notification | Pending   |
-    ```Markdown
     Recommendation:
     Deploy real-time RF spectrum monitoring using HackRF One and GNU Radio.
