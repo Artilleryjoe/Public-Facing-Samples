@@ -3,7 +3,7 @@
 
 ### `scenario-02-threat-model-voice-assistant.md`
 
-```markdown
+
 # Threat Modeling: Voice Assistant Platform
 
 ## Context
