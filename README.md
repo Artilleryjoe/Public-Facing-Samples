@@ -6,9 +6,9 @@ This repository contains professional documentation samples based on real-world,
 
 | File | Summary |
 |------|---------|
-| [`scenario-01-rogue-drone-jammer-report.md`](scenario-01-rogue-drone-jammer-report.md) | RF-based interference analysis involving a rogue drone |
-| [`scenario-02-threat-model-voice-assistant.md`](scenario-02-threat-model-voice-assistant.md) | Threat modeling for a privacy-focused voice assistant SaaS |
-| [`scenario-03-supply-chain-firmware-scan.md`](scenario-03-supply-chain-firmware-scan.md) | Firmware vulnerability audit in an industrial supply chain |
+| [`scenario-01-rogue-drone-jammer-report/README.md`](scenario-01-rogue-drone-jammer-report/README.md) | RF-based interference analysis involving a rogue drone |
+| [`scenario-02-threat-model-voice-assistant/README.md`](scenario-02-threat-model-voice-assistant/README.md) | Threat modeling for a privacy-focused voice assistant SaaS |
+| [`scenario-03-supply-chain-firmware-scan/README.md`](scenario-03-supply-chain-firmware-scan/README.md) | Firmware vulnerability audit in an industrial supply chain |
 
 ---
 
