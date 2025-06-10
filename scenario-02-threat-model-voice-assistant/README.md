@@ -10,7 +10,6 @@ Environment: AWS-based NLP backend, React frontend, mobile SDK
 ---
 
 ## Architecture Summary
-    ```text
     System Flow:
     - Frontend
       └─> API Gateway
