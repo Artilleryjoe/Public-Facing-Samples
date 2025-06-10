@@ -29,6 +29,6 @@
 ## Lessons Learned
 Always request an SBOM (Software Bill of Materials) from hardware and firmware suppliers.
 
-Recommendation:
+***Recommendation***:
 Integrate static firmware scans using binwalk and firmwalker into CI pipelines.
 
